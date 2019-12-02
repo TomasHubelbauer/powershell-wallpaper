@@ -30,3 +30,11 @@ RUNDLL32.EXE USER32.DLL, UpdatePerUserSystemParameters
 ## Resources
 
 https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-systemparametersinfoa
+
+## To-Do
+
+### Hook into an event indicating `UpdatePerUserSystemParameters` completion
+
+This will ensure the call went through successfully and will enable to hold the script until it does.
+
+### Add working scripts for setting the desktop background color
